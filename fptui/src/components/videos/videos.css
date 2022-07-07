@@ -1,0 +1,13 @@
+.video-call {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.owner {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 20vw;
+    height: 20vh;
+    z-index: 1;
+}

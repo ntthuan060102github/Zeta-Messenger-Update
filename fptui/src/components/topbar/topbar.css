@@ -1,0 +1,31 @@
+.topbar__container {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    /* width: 100%; */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+.topbar__left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.topbar__right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.topbar__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+.topbar__call {
+    margin-right: 24px;
+    /* font-size: 60px; */
+    color: #2f83f1;
+}
